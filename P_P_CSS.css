@@ -1,0 +1,207 @@
+body{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight:600;
+    font-size:large;
+    text-align: center;
+}
+h2{
+    font-weight: normal;
+    
+}
+#example1 {
+    
+  width: 1305px;
+  
+  background-color: white;
+  box-shadow: 0px 4px 5px #aaaaaa;
+  padding: 10px 10px 10px 500px;
+  }
+  
+a {
+    line-height: 1em;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    margin: 42;
+}
+.popular{
+    font-weight:50;
+    background-color: orangered;
+    border-radius: 10px;
+}
+html{
+    font-weight: 'Open Sans',sans-serif;
+}
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    
+}
+.but{
+    display: inline-block;
+}
+.orange{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px 0px 0px 10px;
+    color:black;
+    background-color: orangered;
+    font-weight:bold;
+    font-size:large;
+}
+.whitebutton{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 0px 10px 10px 0px;
+    color:black;
+    background-color: white;
+    font-weight:bold;
+    font-size:large;
+}
+nav{
+    
+    background-color: white;
+    border: yellowgreen;
+   
+    
+}
+.navbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border-radius: 3px;
+    font-size: small
+}
+
+.headerlist{
+    list-style-type: none;
+   
+    border-top:1px solid gray ;
+    border-bottom:1px solid gray ;
+    padding:5px 20px;
+}
+
+.speciallistli{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 1;
+    padding: 10px 0;
+    color: white;
+}
+.listli{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 1;
+    padding: 10px 0;
+    
+}
+.line{
+    border-top:1px solid black ;
+}
+.tick{
+    background-color: #e1f1ff;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    color: red;
+    
+}
+.i{
+    
+    border: 1px solid gray;
+    border-radius: 25px 25px 25px 25px;
+    color:gray;
+    font-size:xx-small;
+    
+}
+.listlilittle{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 2;
+    
+}
+.listlilittle.everything{
+    
+    text-align: left;
+}
+.price{
+    color:black;
+    display: block;
+    font-size: 35px;
+    font-weight: 600;
+    border-top:1px solid gray ;
+}
+.buttons{
+    width: 90px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color:black;
+    font-weight:bold;
+    font-size: small;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration:none;
+    margin:20px 0;
+    transition:background-color 200ms ease-in-out ;
+    
+    
+}
+.music{
+    background-color: green;
+    padding: 4px;
+    border: none;
+    border-radius: 15px  0px 15px 15px;
+}
+.buttons:hover,.buttons:focus{
+    background-color:cadetblue;
+}
+.buttons.is-featured{
+    background-color:black;
+    color:white;
+   
+}
+@media(min-width:900px){
+    .box{
+        flex-direction:row;
+    }
+    .headerlist{
+        list-style-type: none;
+        border-right:1px solid gray ;
+        border-top:1px solid gray ;
+        border-bottom:1px solid gray ;
+        padding:5px 20px;
+    }
+    .headerlist.special{
+        border-left:1px solid gray ;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .headerlist.specialright{
+        border-right:1px solid gray ;
+        border-radius: 0px 10px 10px 0px;
+    }
+    h1{
+        font-weight:600;
+        font-size:x-large;
+    }
+    
+    
+}
